@@ -13,11 +13,11 @@
     padding-left: 30px;
 }
 .container-left img{
-    padding-left: 20px;
+    padding-left: 25px;
     display: flex;
     object-fit: cover;
-    width: max-content;
-    height: 120px;
+    width: 200px;
+    height: 90px;
 }
 .container-left ul{
     display: flex;

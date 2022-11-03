@@ -1,0 +1,48 @@
+@import './_Vars.css';
+
+.container-general{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    width: 100%;
+}
+.container-left{
+    display: flex;
+    margin-left: 15PX;
+    gap: 5px;
+}
+.container-left h5{
+    padding-left: 40px;
+    color: var(--gray-light);
+}
+.container-leftImage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+.container-imageBig{
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+}
+.container-imageBig img{
+    justify-self: left;
+    width: 100%;
+    height: 100%
+}
+.line-leftImage{
+    width: 80%;
+    margin-top: 0;
+    margin-left: 35px;
+    color: var(--gray-light-background);
+}
+.container-imageLittles{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.container-imageLittles img{
+    object-fit: contain;
+    width: 60px;
+    height: 70px;
+}
