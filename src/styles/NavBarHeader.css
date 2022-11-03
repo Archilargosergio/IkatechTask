@@ -1,0 +1,67 @@
+@import './_Vars.css';
+
+.container-general{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+}
+.container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.container-left img{
+    padding-left: 20px;
+    display: flex;
+    object-fit: cover;
+    width: max-content;
+    height: 120px;
+}
+.container-left ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0;
+    list-style: none;
+    font-size: small;
+}
+.container-right{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    margin: 10px 70px;
+}
+.container-navBar{
+    width: 200px;
+    margin-left: 125px;
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--gray-light);
+}
+.container-navBar input{
+    border: none;
+}
+.container-navBar input::placeholder{
+    color: var(--gray-light);
+}
+.container-navBar img{
+    width: 30px;
+    padding-left: 30px;
+}
+.container-right p{
+    color: var(--brown-light);
+    font-size: small;
+}
+.container-cart{
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.container-cart img{
+    width: 18px;
+}
