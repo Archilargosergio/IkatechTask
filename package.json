@@ -34,22 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "Maquetar utilizando la herramienta que consideres necesaria (React,Angular,Vuejs etc), Debes construir la misma página que aparece en la imagen llamada Producto.png, además si observas en esta imagen aparece un slider con las fotos de varios productos la idea es que puedas utilizar el archivo zapato.json para cargar la información.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Archilargosergio/IkateckTask.git"
-  },
-  "keywords": [
-    "JavaScript",
-    "ReactJS",
-    "Redux"
-  ],
-  "author": "Sergio Archila",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Archilargosergio/IkateckTask/issues"
-  },
-  "homepage": "https://github.com/Archilargosergio/IkateckTask#readme"
+  }
 }

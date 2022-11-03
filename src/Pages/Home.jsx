@@ -3,7 +3,7 @@ import Header from '../Containers/Header';
 import MainProduct from '../Containers/MainProduct';
 import OtherProducts from '../Containers/OtherProducts';
 import Footer from '../Containers/Footer';
-import '../styles/Home.css'
+import '../styles/Home.css';
 
 const Home = () => {
     return (
