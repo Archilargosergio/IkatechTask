@@ -1,0 +1,22 @@
+@import './_Vars.css';
+
+.container-generalProductDetail{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 80px;
+}
+.container-generalProductDetail h4{
+    margin: 0;
+}
+.container-line{
+    padding: 0;
+}
+.container-generalProductDetail p{
+    text-align: justify;
+    color: var(--gray-very-light);
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.container-technology p{
+    margin-bottom: 15px;
+}
