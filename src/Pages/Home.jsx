@@ -1,19 +1,21 @@
 import React from 'react';
 import Header from '../Containers/Header';
 import MainProduct from '../Containers/MainProduct';
-import OtherProducts from '../Containers/OtherProducts';
+import ComplementProductsSlider from '../Containers/ComplementProductsSlider';
+import RecommendationProductSlider from '../Containers/RecommendationProductsSlider'
 import Footer from '../Containers/Footer';
 import '../styles/Home.css';
 
 const Home = () => {
     return (
-        <div className='.App'>
+        <main className='.App'>
             < Header />
             <hr className='line' />
             < MainProduct />
-            < OtherProducts />
+            < ComplementProductsSlider />
+            < RecommendationProductSlider />
             < Footer />
-        </div>
+        </main>
     )
 }
 
