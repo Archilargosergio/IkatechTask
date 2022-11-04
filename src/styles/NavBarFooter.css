@@ -1,13 +1,20 @@
 @import './_Vars.css';
 
 .container-generalFooter{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 80% auto;
+    width: 100vh;
+    margin: 0 5%;
+    gap: 32%;
 }
 .container-listFooter{
     display: flex;
-    gap:20px;
-    justify-content: start;
+    width: 105vh;
+    gap: 4%;
+    justify-content: space-around;
+}
+.list{
+    width: 100%;
 }
 .list p{
    margin-bottom: 20px;
@@ -15,7 +22,7 @@
 }
 .list li{
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .list li a{
     color: var(--gray-very-light);
@@ -28,15 +35,22 @@
 .container-newsletterFooter{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
+    width: 45vh;
 }
 .container-newsletterFooter p{
     font-weight: bold;
 }
+.container-newsletterFooter span{
+    color: var(--gray-very-light);
+    font-size: smaller;
+    line-height: 15px;
+}
 .container-navBarFooter{
-    width: 200px;
-    margin-left: 125px;
-    padding: 0 10px;
+    width: 85%;
+    height: 40px;
+    margin: 15px 0 0;
+    padding: 0 5px;
     display: inline-flex;
     justify-content: space-between;
     border-width: 0.5px;
@@ -45,6 +59,7 @@
 }
 .container-navBarFooter input{
     border: none;
+    width: 90%;
 }
 .container-navBarFooter input::placeholder{
     color: var(--gray-light);
@@ -52,4 +67,5 @@
 .container-navBarFooter img{
     width: 30px;
     padding-left: 30px;
+    cursor: pointer;
 }

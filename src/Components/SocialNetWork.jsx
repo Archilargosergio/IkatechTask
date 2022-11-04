@@ -9,8 +9,12 @@ const SocialNetWork = () => {
             <h1>@HUSHPUPPIESCO</h1>
             <hr className='line-social' />
             <div className='container-iconSocial'>
-                <img src={FacebookLogo} alt="" />
-                <img src={InstagramLogo} alt="" />
+                <a href="https://www.facebook.com/hushpuppiescolombia/">
+                    <img src={FacebookLogo} alt="facebookLogo" />
+                </a>
+                <a href="https://www.instagram.com/hushpuppiesco/?hl=fr">
+                    <img src={InstagramLogo} alt="instagramLogo" />
+                </a>
             </div>
 
         </section>

@@ -58,7 +58,7 @@ const ProductInfo = () => {
                     </div>
                 </div>
                 <div className='container-cartProduct'>
-                    <p>GUÍA DE TALLAS</p>
+                    <a href="/">GUÍA DE TALLAS</a>
                     <div className='container-buttonProduct'>
                         <button type='submit'>AÑADIR AL CARRITO</button>
                         <img src={HeartIcon} alt="heartIcon" />

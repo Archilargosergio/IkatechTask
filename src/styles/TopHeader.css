@@ -29,7 +29,10 @@
     align-self: center;
     gap: 10px;
     list-style: none;
+}
+.container-listTop a{
     font-weight: bold;
     font-size: small;
     color: var(--gray-light);
+    text-decoration: none;
 }

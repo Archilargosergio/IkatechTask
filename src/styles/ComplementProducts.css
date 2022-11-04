@@ -2,9 +2,10 @@
 
 .container-generalComplement{
     display: grid;
+    place-items: center;
     width: 100%;
     height: 100%;
-    margin: 0px 80px;
+    margin: 0px 
 }
 .container-generalComplement h4{
     background-color: var(--gray-very-light-background);
@@ -13,10 +14,14 @@
     margin-bottom: 0;
     color: black;
     border-radius: 2px;
+    z-index: 1;
 }
 .container-subGeneralComplement{
     display: grid;
-    grid-template-columns: repeat(4, 22%);
+    grid-template-columns: repeat(4, 40%);
+    place-content: space-around;
+    width: 100vh;
+    gap: 2%;
 }
 .container-cardComplement{
     display: grid;
@@ -24,6 +29,7 @@
     height: 100%;
     grid-template-rows: 1fr auto;
     margin: 0;
+    place-items: center;
 }
 .container-imageComplement{
     display: flex;
@@ -36,6 +42,13 @@
     height: 200px;
     object-fit: cover;
     margin: 0 10%;
+    cursor: pointer;
+    z-index: 0;
+}
+.container-imageBigComplement:hover{
+    transform:scale(1.2);
+    transition-duration: 0.2s;
+    border-radius: 10px;
 }
 .container-imageBigComplement img{
     justify-self: left;
@@ -45,13 +58,20 @@
 .container-imageLittlesComplement{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 6%;
     margin: 0 15% 10px 15%;
 }
 .container-imageLittlesComplement img{
     width: 55px;
     height: 60px;
     object-fit: contain;
+    cursor: pointer;
+    z-index: 2;
+}
+.container-imageLittlesComplement img:hover{
+    transform:scale(1.5);
+    transition-duration: 0.2s;
+    border-radius: 10px;
 }
 .container-textComplement{
     width: 100%;
@@ -77,4 +97,9 @@
     border-style:unset;
     font-size: small;
     color: white;
+    cursor: pointer;
+}
+.container-textComplement button:hover{
+    transform:scale(1.2);
+    transition-duration: 0.2s;
 }

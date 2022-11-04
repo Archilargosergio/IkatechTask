@@ -9,9 +9,9 @@ const TopHeader = () => {
             </div>
             <div className='container-listTop'>
                 <ul>
-                    <li>DIRECTORIO DE TIENDAS</li>
-                    <li>SERVICIO AL CLIENTE</li>
-                    <li>MI CUENTA</li>
+                    <li><a href="/">DIRECTORIO DE TIENDAS</a></li>
+                    <li><a href="/">SERVICIO AL CLIENTE</a></li>
+                    <li><a href="/">MI CUENTA</a></li>
                 </ul>
             </div>
         </nav>
