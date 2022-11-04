@@ -16,15 +16,15 @@
     color: white;
     text-align: center;
 }
-.list{
+.container-listTop{
     background-color: var(--gray-light-background);
     height: 30px;
 }
-.list ul{
+.container-listTop ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 80px;
+    padding-right: 70px;
     margin: 7px 0;
     align-self: center;
     gap: 10px;

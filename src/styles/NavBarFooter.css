@@ -1,0 +1,55 @@
+@import './_Vars.css';
+
+.container-generalFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.container-listFooter{
+    display: flex;
+    gap:20px;
+    justify-content: start;
+}
+.list p{
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+.list li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.list li a{
+    color: var(--gray-very-light);
+    text-decoration: none;
+    font-size: smaller;
+}
+.list span{
+    color: var(--gray-very-light);
+}
+.container-newsletterFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.container-newsletterFooter p{
+    font-weight: bold;
+}
+.container-navBarFooter{
+    width: 200px;
+    margin-left: 125px;
+    padding: 0 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: var(--gray-very-light);
+}
+.container-navBarFooter input{
+    border: none;
+}
+.container-navBarFooter input::placeholder{
+    color: var(--gray-light);
+}
+.container-navBarFooter img{
+    width: 30px;
+    padding-left: 30px;
+}

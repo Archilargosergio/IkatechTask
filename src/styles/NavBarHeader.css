@@ -1,25 +1,25 @@
 @import './_Vars.css';
 
-.container-general{
+.container-generalNav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
     height: auto;
 }
-.container-left{
+.container-leftNav{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 30px;
+    padding-left: 45px;
 }
-.container-left img{
+.container-leftNav img{
     padding-left: 25px;
     display: flex;
     object-fit: cover;
     width: 200px;
     height: 90px;
 }
-.container-left ul{
+.container-leftNav ul{
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -27,11 +27,12 @@
     list-style: none;
     font-size: small;
 }
-.container-right{
+.container-rightNav{
     display: flex;
     flex-direction: column;
     justify-self: flex-end;
     margin: 10px 70px;
+    padding-left: 20px;
 }
 .container-navBar{
     width: 200px;
@@ -53,7 +54,7 @@
     width: 30px;
     padding-left: 30px;
 }
-.container-right p{
+.container-rightNav p{
     color: var(--brown-light);
     font-size: small;
 }

@@ -1,0 +1,30 @@
+@import './_Vars.css';
+
+.container-generalSocial{
+    margin: 35px 0;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 135px;
+    background-color: var(--cream-light);
+}
+.container-generalSocial h1{
+    font-size: 35px;
+    margin: 5px 0 15px 0;
+}
+.line-social{
+    margin-top: 0;
+    width: 40%;
+    border-color: black;
+}
+.container-iconSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.container-iconSocial img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 0;
+}

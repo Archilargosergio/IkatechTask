@@ -7,7 +7,7 @@ const TopHeader = () => {
             <div className='general-tittle'>
                 <h1>HOT SALE -30% EN SANDALIAS</h1>
             </div>
-            <div className='list'>
+            <div className='container-listTop'>
                 <ul>
                     <li>DIRECTORIO DE TIENDAS</li>
                     <li>SERVICIO AL CLIENTE</li>

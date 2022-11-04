@@ -6,8 +6,8 @@ import CartIcon from '../assets/Icons/shopping_bag_FILL0_wght400_GRAD0_opsz48.pn
 
 const NavBarHeader = () => {
     return (
-        <nav className='container-general'>
-            <section className='container-left'>
+        <nav className='container-generalNav'>
+            <section className='container-leftNav'>
                 <img src={CompanyLogo} alt="companyLogo" />
                 <ul>
                     <li>HOMBRE</li>
@@ -17,7 +17,7 @@ const NavBarHeader = () => {
                     <li>TIENDAS</li>
                 </ul>
             </section>
-            <section className='container-right'>
+            <section className='container-rightNav'>
                 <div className='container-navBar'>
                     <input type="text" name="" id="" placeholder='BUSCAR' />
                     <img src={ArrowIcon} alt="" />

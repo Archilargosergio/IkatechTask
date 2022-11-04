@@ -1,0 +1,75 @@
+@import './_Vars.css';
+
+.container-generalRecommendation{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 0px 80px;
+}
+.container-generalRecommendation h4{
+    width: 87%;
+    padding: 5px;
+    margin-bottom: 0;
+    color: var(--gray-light);
+}
+.line-titleRecommendation{
+    width: 87%;
+    margin: 2px 40% 5px 0;
+}
+.container-subGeneralRecommendation{
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+}
+.container-cardRecommendation{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-rows: 1fr auto;
+    margin: 0;
+}
+.container-imageRecommendation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px 0;
+}
+.container-imageBigRecommendation{
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10%;
+}
+.container-imageBigRecommendation img{
+    justify-self: left;
+    width: 90%;
+    height: 100%;
+}
+.container-imageLittlesRecommendation{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 0 15% 10px 15%;
+}
+.container-imageLittlesRecommendation img{
+    width: 55px;
+    height: 60px;
+    object-fit: contain;
+}
+.container-textRecommendation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+.container-textRecommendation p:nth-child(1){
+    color: black;
+    margin: 0;
+}
+.container-textRecommendation p:nth-child(2){
+    color: var(--brown-dark);
+}
+.line-textRecommendation{
+    width: 80%;
+    margin: 0 10% 0 ;
+}
