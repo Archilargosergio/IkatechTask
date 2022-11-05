@@ -4,7 +4,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 5px 40px;
+    margin: 5px 38px;
     gap: 0 10px;
     cursor: grab;
 }
@@ -41,6 +41,7 @@
 .container-imageLittlesComplement img{
     width: 50px;
     height: 50px;
+    margin: 0 2px;
     object-fit: contain;
     cursor: pointer;
     z-index: 2;

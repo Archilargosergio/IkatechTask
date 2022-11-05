@@ -13,6 +13,7 @@ const RecommendationProductsSlider = () => {
             <motion.div className='container-subGeneralRecommendation' drag='x' dragConstraints={{ right: 0, left: 1.70 }}>
                 {data.map(product =>
                     < ProductRecommendation
+                        key={product.id}
                         url={`/src/assets/Images/${product.foto}`}
                         name={product.nombre}
                         price={product.precio}
