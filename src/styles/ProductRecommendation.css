@@ -1,52 +1,52 @@
 @import './_Vars.css';
 
 .container-cardRecommendation{
-    display: grid;
-    width: 45%;
-    height: 50%;
-    grid-template-rows: 1fr auto;
-    place-items: center;
-    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 40px;
+    gap: 0 10px;
+    cursor: grab;
 }
 .container-imageRecommendation{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 5px 0;
+    width: 90%;
+    margin: 0;
+    place-content: center;
 }
 .container-imageBigRecommendation{
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 180px;
     object-fit: cover;
-    margin: 0 10%;
+    margin: 0 10px;
     cursor: pointer;
     z-index: 0;
 }
-.container-imageBigRecommendation:hover{
-    transform:scale(1.2);
+.container-imageBigRecommendaiton:hover{
+    transform:scale(1.1);
     transition-duration: 0.2s;
     border-radius: 10px;
 }
 .container-imageBigRecommendation img{
-    justify-self: left;
-    width: 90%;
+    width: 100%;
     height: 100%;
 }
 .container-imageLittlesRecommendation{
     display: flex;
-    flex-direction: row;
-    gap: 6%;
-    margin: 0 15% 10px 15%;
+    justify-content: space-around;
+    margin: 10px 20px 2px;
+    width: 90%;
 }
 .container-imageLittlesRecommendation img{
-    width: 55px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     cursor: pointer;
     z-index: 2;
 }
 .container-imageLittlesRecommendation img:hover{
-    transform:scale(1.5);
+    transform:scale(1.3);
     transition-duration: 0.2s;
     border-radius: 10px;
 }
@@ -54,15 +54,15 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    text-align: center;
+    place-items: center;
 }
 .container-textRecommendation p:nth-child(1){
     color: black;
-    margin: 0;
+    margin: 5px 0 15px;
 }
 .container-textRecommendation p:nth-child(2){
     color: var(--brown-dark);
+    margin: 5px 0 10px;
 }
 .line-textRecommendation{
     width: 80%;
