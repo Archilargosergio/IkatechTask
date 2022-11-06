@@ -3,37 +3,49 @@
 .container-generalRecommendation{
     display: flex;
     flex-direction: column;
-    justify-self: center;
-    width: 1100px;
+    justify-content: center;
+    width: 100%;
     height: 435px;
-    margin: 0 70px; 
+    margin: 5px; 
 }
 .container-generalRecommendation h4{
+    text-align: start;
     width: 100%;
-    padding: 5px;
-    margin-bottom: 0;
+    padding: 5px 0px 5px 60px;
+    margin: 0;
     color: var(--gray-light);
     z-index: 1;
 }
 .line-titleRecommendation{
-    display: flex;
-    justify-self: center;
-    width: 99%;
+    display: block;
+    padding: auto;
+    width: 90%;
     z-index: 1;
 }
 .container-subGeneralRecommendation{
     display: flex;
     flex-direction: row;
+    place-self: center;
     flex-wrap: nowrap;
     overflow-x: scroll;
-    width: 98%;
+    width: 90%;
     height: auto;
-    gap: 0;
+    gap: 20px;
 }
 @media (max-width: 640px) {
 	.container-generalRecommendation{
         width: 95%;
         height: 435px;
         margin: 0 20px; 
+    }
+    .container-generalRecommendation h4{
+        padding: 5px 3px 5px 0;
+    }
+    .container-subGeneralRecommendation{
+        gap: 10px;
+    }
+    .line-titleRecommendation{
+        width: 95%;
+        padding-left: 20px;
     }
 }
