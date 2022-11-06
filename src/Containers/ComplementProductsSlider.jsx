@@ -25,9 +25,7 @@ const ComplementProductsSlider = () => {
                 {data && data.map(product =>
                     < ProductCompleteLook
                         key={product.id}
-                        url={product.foto}
-                        name={product.nombre}
-                        price={product.precio}
+                        product={product}
                     />
                 )}
 
