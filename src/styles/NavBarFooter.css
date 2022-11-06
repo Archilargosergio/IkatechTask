@@ -69,3 +69,37 @@
     padding-left: 30px;
     cursor: pointer;
 }
+@media (max-width: 640px) {
+	.container-generalFooter{
+        grid-template-columns: 1fr 30%;
+        width: 100%;
+        margin: 0 5px;
+        gap: 20px;
+    }
+    .container-listFooter{
+        width: 100%;
+        gap: 5px;
+    }
+    .list p{
+        margin-bottom: 10px;
+        font-size: 12px;
+     }
+     .list li a{
+        font-size: 10px;
+    }
+    .container-newsletterFooter{
+        width: 90%;
+        margin: 15px 10px;
+        padding: 0;
+    }
+    .container-newsletterFooter p{
+        font-size: 12px;
+    }
+    .container-newsletterFooter span{
+        font-size: 10px;
+    }
+    .container-navBarFooter{
+        width: 90%;
+        height: 25px;
+    }
+}
