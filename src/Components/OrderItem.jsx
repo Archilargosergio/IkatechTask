@@ -3,7 +3,7 @@ import AppContext from '../context/AppContext';
 import '../styles/OrderItem.css';
 
 import closeIcon from '../assets/Icons/icon_close.png';
-
+//useContext logic
 const OrderItem = ({ product, index }) => {
 	const { removeFromCart } = useContext(AppContext);
 

@@ -8,13 +8,17 @@ import data from '../zapato.json';
 // import { setImage } from '../Utils/reducers/loadReducers';
 
 const RecommendationProductsSlider = () => {
-
+    //Redux Logic, didn't used
     // const dispatch = useDispatch();
     // useEffect(() => {
-    //     getAll().then(shoes => {
-    //         dispatch(setImage(shoes))
+    //     getAll().then(product => {
+    //         dispatch(setImage(product))
     //     })
     // }, [dispatch])
+    // }, [dispatch])
+    // const dispatch = useDispatch();
+    // const { foto, nombre, precio } = useSelector(state => state.foto)
+
     return (
         <div className='container-generalRecommendation'>
             <h4>PRODUCTOS RECOMENDADOS</h4>

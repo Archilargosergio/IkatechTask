@@ -6,6 +6,7 @@ import '../styles/MyOrder.css';
 
 
 const MyOrder = () => {
+	//useContext logic
 	const { state } = useContext(AppContext);
 
 	const sumTotal = () => {

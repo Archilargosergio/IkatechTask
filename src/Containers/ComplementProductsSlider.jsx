@@ -8,14 +8,15 @@ import data from '../zapato.json';
 // import { setImage } from '../Utils/reducers/loadReducers';
 
 const ComplementProductsSlider = () => {
+    //Redux Logic, didn't used
     // const dispatch = useDispatch();
     // useEffect(() => {
-    //     getAll().then(shoes => {
-    //         dispatch(setImage(shoes))
+    //     getAll().then(product => {
+    //         dispatch(setImage(product))
     //     })
     // }, [dispatch])
     // const dispatch = useDispatch();
-    // const { foto, nombre, precio } = useSelector(state => state.image)
+    // const { foto, nombre, precio } = useSelector(state => state.foto)
 
     return (
         <div className='container-generalComplement'>

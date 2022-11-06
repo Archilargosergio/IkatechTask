@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import '../styles/ProductCompleteLook.css';
 
 const ProductCompleteLook = ({ product }) => {
+    //useContext logic
     const { addToCart, removeFromCart, state } = useContext(AppContext);
 
     const itsProductAdded = () => state.cart.some((item) => item === product.id) ? true : false;

@@ -6,7 +6,7 @@ Maquetar utilizando la herramienta que consideres necesaria (React,Angular,Vuejs
 
 Se valorará el uso de herramientas adicionales como **manejo de repositorios**, en caso de usar React el uso de **Redux** y adicionales.
 
-## Recursos
+## Recursos / Dependencias
 
 Para la creación del slider se uso con la librería framer-motion.
 

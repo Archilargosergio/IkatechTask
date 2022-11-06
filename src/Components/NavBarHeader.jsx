@@ -6,6 +6,7 @@ import ArrowIcon from '../assets/Icons/chevron_right_FILL0_wght400_GRAD0_opsz48.
 import CartIcon from '../assets/Icons/shopping_bag_FILL0_wght400_GRAD0_opsz48.png';
 
 const NavBarHeader = () => {
+    //useContext logic
     const [toggleCart, setToggleCart] = useState(false);
 
     const handleToggleCart = () => {
