@@ -9,13 +9,13 @@ const ProductRecommendation = (product) => {
             <div className='container-imageRecommendation'>
 
                 <figure className='container-imageBigRecommendation'>
-                    <img src={product.url} alt='Shoe1' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
                 </figure>
 
                 <figure className='container-imageLittlesRecommendation'>
-                    <img src={product.url} alt='Shoe2' />
-                    <img src={product.url} alt='Shoe3' />
-                    <img src={product.url} alt='Shoe4' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
                 </figure>
             </div>
 

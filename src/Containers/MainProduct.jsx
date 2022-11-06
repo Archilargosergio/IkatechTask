@@ -6,6 +6,7 @@ const MainProduct = () => {
     return (
         <div>
             < ProductInfo />
+
             <section className='container-generalProductDetail'>
                 <article className='container-detail'>
                     <h4>DETALLES DE PRODUCTO</h4>

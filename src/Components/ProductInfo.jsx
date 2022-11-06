@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/ProductInfo.css';
-import Shoe1 from '../assets/Images/1.jpg';
-import Shoe2 from '../assets/Images/2.jpg';
-import Shoe3 from '../assets/Images/3.jpg';
-import Shoe4 from '../assets/Images/4.jpg';
+import Shoe11 from '../assets/Images/11.jpg';
+import Shoe13 from '../assets/Images/13.jpg';
 import Shoe5 from '../assets/Images/5.jpg';
-import Shoe6 from '../assets/Images/6.jpg';
-import Shoe7 from '../assets/Images/7.jpg';
+import Shoe20 from '../assets/Images/20.jpg';
+import Shoe2 from '../assets/Images/2.jpg';
+import Shoe18 from '../assets/Images/18.jpg';
+import Shoe15 from '../assets/Images/15.jpg';
 import HeartIcon from '../assets/Icons/favorite_FILL1_wght400_GRAD0_opsz48.png';
+
 
 
 const ProductInfo = () => {
@@ -17,17 +18,16 @@ const ProductInfo = () => {
                 <h5>HUSHPUPPIESCO / CALZADO / CAPATILLA HOMBRE PELIKAN</h5>
                 <div className='container-leftImage'>
                     <figure className='container-imageBig'>
-                        <img src={Shoe1} alt='Shoe1' />
-
+                        <img src={Shoe11} alt='Shoe1' />
                     </figure>
                     <hr className='line-leftImage' />
                     <figure className='container-imageLittles'>
                         <img src={Shoe2} alt='Shoe2' />
-                        <img src={Shoe3} alt='Shoe3' />
-                        <img src={Shoe4} alt='Shoe4' />
-                        <img src={Shoe5} alt='Shoe5' />
-                        <img src={Shoe6} alt='Shoe6' />
-                        <img src={Shoe7} alt='Shoe7' />
+                        <img src={Shoe13} alt='Shoe3' />
+                        <img src={Shoe5} alt='Shoe4' />
+                        <img src={Shoe20} alt='Shoe5' />
+                        <img src={Shoe18} alt='Shoe6' />
+                        <img src={Shoe15} alt='Shoe7' />
                     </figure>
                 </div>
 
@@ -40,7 +40,7 @@ const ProductInfo = () => {
                 </div>
                 <div className='container-rightLittleImage'>
                     <p>COLOR</p>
-                    <img src={Shoe1} alt="Shoe1" />
+                    <img src={Shoe11} alt="Shoe1" />
                 </div>
                 <div className='container-size'>
                     <p>TALLA</p>

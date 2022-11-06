@@ -9,13 +9,13 @@ const ProductCompleteLook = (product) => {
             <div className='container-imageComplement'>
 
                 <figure className='container-imageBigComplement'>
-                    <img src={product.url} alt='Shoe1' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
                 </figure>
 
                 <figure className='container-imageLittlesComplement'>
-                    <img src={product.url} alt='Shoe2' />
-                    <img src={product.url} alt='Shoe3' />
-                    <img src={product.url} alt='Shoe4' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
+                    <img src={require(`../assets/Images/${product.url}`)} alt='Shoe' />
                 </figure>
             </div>
 

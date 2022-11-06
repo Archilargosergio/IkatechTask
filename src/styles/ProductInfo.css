@@ -5,6 +5,7 @@
     grid-template-columns:  repeat(2, 90%);
     margin: 0 1%;
     width: 100vh;
+    height: auto;
     gap: 2%;
 }
 .container-leftProduct{
@@ -180,6 +181,7 @@
     font-weight: bold;
     font-size: smaller;
     z-index: 0;
+    cursor: pointer;
 }
 .container-buttonProduct button:hover{
     transform:scale(1.2);

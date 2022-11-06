@@ -1,0 +1,76 @@
+@import './_Vars.css'; 
+
+.container-generalMyOrder {
+	width: 360px;
+	padding: 24px;
+	box-sizing: border-box;
+	position: absolute;
+	right: -250px;
+	background-color: white;
+	top: 190px;
+	bottom: 0;
+	border-radius: 6px;
+	position: fixed;
+	transition: 1s ease;
+	animation: swipeLeft 1s ease forwards;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+	max-height: 500px;
+	z-index: 3;
+}
+.container-titleMyOrder{
+	display: flex;
+}
+.container-titleMyOrder p {
+	font-size: var(--lg);
+	font-weight: bold;
+}
+.container-cartMyOrder {
+	max-height: calc(100vh - 500px);
+	overflow-y: auto;
+}
+.container-cartMyOrder::-webkit-scrollbar {
+	display: none;
+}
+.container-orderMyOrder {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 16px;
+	align-items: center;
+	background-color: var(--text-input-field);
+	margin-bottom: 24px;
+	border-radius: 8px;
+	padding: 0 24px;
+}
+.container-orderMyOrder p:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+}
+.container-orderMyOrder p span:nth-child(1) {
+	font-size: var(--md);
+	font-weight: bold;
+}
+.container-orderMyOrder p:nth-child(2) {
+	text-align: end;
+	font-weight: bold;
+}
+
+.container-buttonMyOrder {
+	background-color: var(--brown-dark);
+	border-radius: 2px;
+	border: none;
+	color: white;
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 50px;
+}
+@media (max-width: 640px) {
+	.container-generalMyOrder {
+		width: 100%;
+	}
+}
+@keyframes swipeLeft {
+	100% {transform: translateX(-360px);}
+}
