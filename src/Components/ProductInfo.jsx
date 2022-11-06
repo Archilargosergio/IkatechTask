@@ -2,13 +2,12 @@ import React from 'react';
 import '../styles/ProductInfo.css';
 import Shoe11 from '../assets/Images/11.jpg';
 import Shoe13 from '../assets/Images/13.jpg';
-import Shoe5 from '../assets/Images/5.jpg';
+import Shoe8 from '../assets/Images/8.jpg';
 import Shoe20 from '../assets/Images/20.jpg';
 import Shoe2 from '../assets/Images/2.jpg';
 import Shoe18 from '../assets/Images/18.jpg';
 import Shoe15 from '../assets/Images/15.jpg';
 import HeartIcon from '../assets/Icons/favorite_FILL1_wght400_GRAD0_opsz48.png';
-
 
 
 const ProductInfo = () => {
@@ -24,7 +23,7 @@ const ProductInfo = () => {
                     <figure className='container-imageLittles'>
                         <img src={Shoe2} alt='Shoe2' />
                         <img src={Shoe13} alt='Shoe3' />
-                        <img src={Shoe5} alt='Shoe4' />
+                        <img src={Shoe8} alt='Shoe4' />
                         <img src={Shoe20} alt='Shoe5' />
                         <img src={Shoe18} alt='Shoe6' />
                         <img src={Shoe15} alt='Shoe7' />
@@ -60,7 +59,7 @@ const ProductInfo = () => {
                 <div className='container-cartProduct'>
                     <a href="/">GUÍA DE TALLAS</a>
                     <div className='container-buttonProduct'>
-                        <button type='submit'>AÑADIR AL CARRITO</button>
+                        <button type='submit' >AÑADIR AL CARRITO</button>
                         <img src={HeartIcon} alt="heartIcon" />
                     </div>
                 </div>

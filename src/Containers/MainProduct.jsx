@@ -5,6 +5,7 @@ import '../styles/MainProduct.css';
 const MainProduct = () => {
     return (
         <div>
+
             < ProductInfo />
 
             <section className='container-generalProductDetail'>

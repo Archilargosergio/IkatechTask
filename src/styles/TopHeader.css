@@ -36,3 +36,9 @@
     color: var(--gray-light);
     text-decoration: none;
 }
+@media (max-width: 640px) {
+	.container-listTop ul{
+        justify-content: center;
+        padding: 0 10px;
+    }
+}

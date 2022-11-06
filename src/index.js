@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './Route/App';
 import reportWebVitals from './reportWebVitals';
-// import { Provider } from 'react-redux';
-// import store from './Utils/store/indexStore';
+import { Provider } from 'react-redux';
+import store from './Utils/store/indexStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    < Provider store={store}>
     <App />
-    {/* < Provider store={store}>
-    </Provider> */}
+    </Provider>
   </React.StrictMode>
 );
 

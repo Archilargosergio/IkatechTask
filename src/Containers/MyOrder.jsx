@@ -21,23 +21,21 @@ const MyOrder = () => {
 			</div>
 			<div className="content-contentMyOrder">
 				<div className='container-cartMyOrder'>
-					{data && data.map(product =>
-						< OrderItem
+					{data.map(product => (
+						<OrderItem
 							key={product.id}
 							url={product.foto}
 							name={product.nombre}
 							price={product.precio}
 						/>
-					)}
-					{/* {state.cart.map((item, index) => (
-						<OrderItem item={item} key={index} index={index} />
-					))} */}
+					))}
 				</div>
 				<div className="container-orderMyOrder">
 					<p>
 						<span>Total</span>
 					</p>
 					<p>
+						100
 						{/* ${sumTotal()} */}
 					</p>
 				</div>

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import '../styles/ProductCompleteLook.css';
 
 const ProductCompleteLook = (product) => {
+
     return (
         <motion.div className='container-cardComplement'>
 
@@ -22,7 +23,7 @@ const ProductCompleteLook = (product) => {
             <div className='container-textComplement'>
                 <p>{product.name}</p>
                 <p>{product.price}</p>
-                <button type='submit'>AGREGAR AL CARRITO</button>
+                <button type='submit' >AGREGAR AL CARRITO</button>
             </div>
 
         </motion.div>

@@ -30,3 +30,10 @@
     height: auto;
     gap: 0;
 }
+@media (max-width: 640px) {
+	.container-generalRecommendation{
+        width: 95%;
+        height: 435px;
+        margin: 0 20px; 
+    }
+}

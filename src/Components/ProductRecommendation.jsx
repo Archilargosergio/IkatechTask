@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import '../styles/ProductRecommendation.css';
 
 const ProductRecommendation = (product) => {
+
     return (
         <motion.div className='container-cardRecommendation'>
 

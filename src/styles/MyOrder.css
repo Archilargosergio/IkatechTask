@@ -37,7 +37,7 @@
 	grid-template-columns: auto 1fr;
 	gap: 16px;
 	align-items: center;
-	background-color: var(--text-input-field);
+	background-color: var(--cream-light);
 	margin-bottom: 24px;
 	border-radius: 8px;
 	padding: 0 24px;
@@ -53,6 +53,7 @@
 .container-orderMyOrder p:nth-child(2) {
 	text-align: end;
 	font-weight: bold;
+	color: var(--gray-light);
 }
 
 .container-buttonMyOrder {

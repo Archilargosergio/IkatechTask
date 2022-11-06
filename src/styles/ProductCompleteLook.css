@@ -16,10 +16,11 @@
     place-content: center;
 }
 .container-imageBigComplement{
+    display: block;
+    margin: auto;
     width: 100%;
     height: 180px;
     object-fit: cover;
-    margin: 0 10px;
     cursor: pointer;
     z-index: 0;
 }
@@ -33,13 +34,13 @@
     height: 100%;
 }
 .container-imageLittlesComplement{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 20px 2px;
+    display: block;
+    margin: auto;
+    margin: 5px;
     width: 90%;
 }
 .container-imageLittlesComplement img{
-    width: 50px;
+    width: 45px;
     height: 50px;
     margin: 0 2px;
     object-fit: contain;
@@ -53,9 +54,9 @@
 }
 .container-textComplement{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
 .container-textComplement p:nth-child(1){
     color: black;
@@ -82,4 +83,22 @@
 .container-textComplement button:hover{
     transform:scale(1.1);
     transition-duration: 0.2s;
+}
+@media (max-width: 640px) {
+    .container-cardComplement{
+        height: 350px;
+        margin: 5px 10px;
+    }
+    .container-imageComplement{
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
+    .container-imageBigComplement{
+        height: 100%;
+    }.container-textComplement{
+        height: 100px;
+        margin-top: 40px;
+    }
 }

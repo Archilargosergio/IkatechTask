@@ -2,9 +2,9 @@
 
 .container-generalProduct{
     display: grid;
-    grid-template-columns:  repeat(2, 90%);
+    grid-template-columns: 1fr 1fr;
     margin: 0 1%;
-    width: 100vh;
+    width: 100%;
     height: auto;
     gap: 2%;
 }
@@ -27,7 +27,7 @@
     height: 500px;
 }
 .container-imageBig{
-    width: 90%;
+    width: 100%;
     height: 75%;
     object-fit: cover;
     cursor: pointer;
@@ -72,7 +72,7 @@
 }
 .container-rightProduct{
     display: grid;
-    grid-template-rows: auto auto auto ;
+    grid-template-rows: auto auto 1fr;
     margin: 10px 20% 0;
 }
 .container-titleProduct{
@@ -196,4 +196,63 @@
 .container-buttonProduct img:hover{
     transform:scale(1.2);
     transition-duration: 0.2s;
+}
+@media (max-width: 640px) {
+	.container-generalProduct{
+        grid-template-columns: 1fr 45%;
+        width: 98%;
+    }
+    .container-leftProduct{
+        width: 100%;
+        height: auto;
+        margin-left: 2px;
+    }
+    .container-leftProduct h5{
+        padding: 0 10px 0 0;
+        font-size: 15px;
+    }
+    .container-leftImage{
+        height: 400px;
+    }
+    .container-imageBig{
+        margin: 2px;
+        width: 80%;
+        height: 50%;
+    }
+    .line-leftImage{
+        margin: 0 15px;
+    }
+    .container-imageLittles{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .container-rightProduct{
+        place-content: right;
+        margin: 0;
+        gap: 0;
+    }
+    .container-titleProduct{
+        font-size: 12px;
+    }
+    .container-sizeBox{
+        display: grid;
+        grid-template-columns: repeat(5, 45px) ;
+        gap: 0 5px;
+    }
+    .container-sizeBox p{
+        height: 35px;
+    }
+    .container-sizeBox p span{
+    font-size: smaller;
+    padding: 10px 0;
+    }  
+    .container-buttonProduct{
+        gap: 25%;
+    } 
+    .container-buttonProduct button{
+        width: 50%;
+        height: auto;
+        margin-top: 0px;
+        font-size: 10px;
+    }
 }
